@@ -1,0 +1,57 @@
+@import './colors.scss';
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-weight: 200;
+  src: url('../assets/fonts/JosefinSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  src: url('../assets/fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  src: url('../assets/fonts/JosefinSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-weight: 800;
+  src: url('../assets/fonts/JosefinSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 800;
+  src: url('../assets/fonts/PlayfairDisplay-Bold.ttf');
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 96px;
+  color: $DarkGrey;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 44px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+}

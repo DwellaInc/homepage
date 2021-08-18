@@ -1,0 +1,14 @@
+@import './partials/typography', 'partials/mediaQueries', 'partials/colors',
+  './partials/buttons';
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 24px;
+  color: $Black;
+}
