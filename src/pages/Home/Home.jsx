@@ -1,16 +1,16 @@
 import React from 'react';
-import Button from '../../components/Button/Button';
+import Intro from './Intro/Intro';
+import Hero from './Hero/Hero';
+import WhatWeOffer from './WhatWeOffer/WhatWeOffer';
+import WalkThrough from './WalkThrough/WalkThrough';
 
 export default function Home() {
   return (
     <>
-      <h1>hello</h1>
-      <h2>test</h2>
-      <Button
-        class="btn btn-primary"
-        text="Primary"
-        clickHandler={() => console.log('hello')}
-      />
+      <Hero />
+      <Intro />
+      <WhatWeOffer />
+      <WalkThrough />
     </>
   );
 }

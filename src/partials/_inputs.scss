@@ -1,0 +1,44 @@
+@import './colors', './mediaQueries';
+
+input {
+  padding: 7.5px 16px;
+  color: $Grey;
+  border: 1px solid $Grey;
+  background: white;
+  border-radius: 25px;
+  width: 400px;
+  margin: 16px 0;
+
+  &:focus {
+    border-color: $Primary;
+    outline: none;
+  }
+
+  &:hover {
+    border-color: $DarkGrey;
+  }
+
+  @include mobile {
+    width: 300px;
+  }
+}
+
+@mixin label {
+  background: white;
+  position: absolute;
+}
+
+.label {
+  @include label();
+  color: $Grey;
+
+  &-green {
+    @include label();
+    color: $Primary;
+  }
+
+  &-error {
+    @include label();
+    color: $Primary;
+  }
+}
