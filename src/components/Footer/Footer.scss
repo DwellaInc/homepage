@@ -1,0 +1,10 @@
+@import '../../main.scss';
+
+.footer {
+  padding: 2rem 0;
+  @include desktopXLPaddingLR;
+  background: $PrimaryLight;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

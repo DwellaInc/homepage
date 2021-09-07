@@ -1,8 +1,9 @@
 import React from 'react';
-import Intro from './Intro/Intro';
-import Hero from './Hero/Hero';
-import WhatWeOffer from './WhatWeOffer/WhatWeOffer';
-import WalkThrough from './WalkThrough/WalkThrough';
+import Intro from './components/Intro/Intro';
+import Hero from './components/Hero/Hero';
+import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
+import WalkThrough from './components/WalkThrough/WalkThrough';
+import HowWeDoIt from './components/HowWeDoIt/HowWeDoIt';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Intro />
       <WhatWeOffer />
       <WalkThrough />
+      <HowWeDoIt />
     </>
   );
 }

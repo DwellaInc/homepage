@@ -1,13 +1,19 @@
+@import './mediaQueries';
+
 @mixin button {
   font-size: 16px;
   line-height: 25px;
   font-weight: 700;
   color: white;
   border-radius: 25px;
-  padding: 10px 40px;
+  padding: 7px 40px;
   border: none;
   font-family: 'Poppins';
   cursor: pointer;
+
+  @include tablet {
+    font-size: 14px;
+  }
 }
 
 .btn {

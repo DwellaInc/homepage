@@ -1,6 +1,6 @@
-import Register from '../../../assets/images/Register.svg';
-import Invest from '../../../assets/images/Invest.svg';
-import Track from '../../../assets/images/Track.svg';
+import Register from '../../../../assets/images/Register.svg';
+import Invest from '../../../../assets/images/Invest.svg';
+import Track from '../../../../assets/images/Track.svg';
 
 export const walkThroughInfo = [
   {
@@ -21,7 +21,7 @@ export const walkThroughInfo = [
     background: 'white',
     number: 3,
     title: 'Track',
-    text: 'Watch you money grow and manage your portfolio in a simple, intuitive way--anywhere, anytime',
+    text: 'Watch your money grow and manage your portfolio in a simple, intuitive way—anywhere, anytime',
     image: Track,
   },
 ];

@@ -1,6 +1,6 @@
-@import '../../../main.scss';
+@import '../../../../main.scss';
 
-.WT {
+.walk-through {
   padding-top: 10rem;
   position: relative;
 
@@ -9,5 +9,13 @@
     padding: 0 20vw;
     position: absolute;
     top: 12rem;
+
+    @include tablet {
+      top: 8rem;
+    }
+
+    @include mobile {
+      top: 6rem;
+    }
   }
 }

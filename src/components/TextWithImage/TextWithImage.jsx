@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.scss';
+import './TextWithImage.scss';
 import NumberAndTitle from '../NumberAndTitle/NumberAndTitle';
 
 export default function TextWithImage({
@@ -12,21 +12,25 @@ export default function TextWithImage({
   if (background === 'grey') {
     return (
       <div className="TWI TWI-grey">
-        <img className="TWI-image" src={image} alt={title} />
-        <div className="TWI-text">
-          <NumberAndTitle number={number} title={title} />
-          <p>{text}</p>
+        <div className="TWI-container ">
+          <img className="TWI-image" src={image} alt={title} />
+          <div className="TWI-text">
+            <NumberAndTitle number={number} title={title} />
+            <p>{text}</p>
+          </div>
         </div>
       </div>
     );
   }
   return (
     <div className="TWI">
-      <div className="TWI-text">
-        <NumberAndTitle number={number} title={title} />
-        <p>{text}</p>
+      <div className="TWI-container">
+        <div className="TWI-text">
+          <NumberAndTitle number={number} title={title} />
+          <p>{text}</p>
+        </div>
+        <img className="TWI-image" src={image} alt={title} />
       </div>
-      <img className="TWI-image" src={image} alt={title} />
     </div>
   );
 }

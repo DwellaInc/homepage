@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.scss';
+import './NumberAndTitle.scss';
 
 export default function NumberAndTitle({ number, title }) {
   return (

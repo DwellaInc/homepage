@@ -1,8 +1,8 @@
-import WhatWeOffer1 from '../../../assets/images/WhatWeOffer1.png';
-import WhatWeOffer2 from '../../../assets/images/WhatWeOffer2.png';
-import WhatWeOffer3 from '../../../assets/images/WhatWeOffer3.png';
-import WhatWeOffer4 from '../../../assets/images/WhatWeOffer4.png';
-import WhatWeOffer5 from '../../../assets/images/WhatWeOffer5.png';
+import WhatWeOffer1 from '../../../../assets/images/WhatWeOffer1.png';
+import WhatWeOffer2 from '../../../../assets/images/WhatWeOffer2.png';
+import WhatWeOffer3 from '../../../../assets/images/WhatWeOffer3.png';
+import WhatWeOffer4 from '../../../../assets/images/WhatWeOffer4.png';
+import WhatWeOffer5 from '../../../../assets/images/WhatWeOffer5.png';
 
 export const cardInfo = [
   {

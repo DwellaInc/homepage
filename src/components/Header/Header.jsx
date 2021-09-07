@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles.scss';
-import logo from '../../assets/logo/dwella-logo.svg';
+import './Header.scss';
+import logo from '../../assets/logo/dwella-logo.png';
 import Button from '../Button/Button';
 
 export default function Header() {

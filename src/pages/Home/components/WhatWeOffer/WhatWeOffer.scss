@@ -1,11 +1,19 @@
-@import '../../../main.scss';
+@import '../../../../main.scss';
 
-.WWO {
+.what-we-offer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7rem 12rem;
+  padding: 6.5rem 12rem;
   width: 100vw;
+
+  @include tablet {
+    padding: 4rem 5rem;
+  }
+
+  @include mobile {
+    padding: 2rem 1rem;
+  }
 
   &-cards {
     width: 100%;
@@ -13,5 +21,9 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+  }
+
+  &-title {
+    text-align: center;
   }
 }

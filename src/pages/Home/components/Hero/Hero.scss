@@ -1,0 +1,28 @@
+@import '../../../../main.scss';
+
+.hero {
+  padding: 4.5rem 0;
+  @include desktopXLPaddingLR;
+  background: #e4f1f2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  flex-direction: column;
+
+  &-message {
+    text-align: center;
+  }
+
+  &-input-container {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-image {
+    width: 50vw;
+  }
+}

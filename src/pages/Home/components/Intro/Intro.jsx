@@ -1,12 +1,14 @@
 import React from 'react';
-import './styles.scss';
-import IntroHouse from '../../../assets/images/Intro_HouseUp.png';
+import './Intro.scss';
+import IntroHouse from '../../../../assets/images/Intro_HouseUp.png';
 
 export default function Intro() {
   return (
     <section className="intro">
       <div className="intro-message">
-        <h3>Real estate investing just got a whole lot easier.</h3>
+        <h3 className="intro-title">
+          Real estate investing just got a whole lot easier.
+        </h3>
         <p>
           With Dwella, you can invest in homes without having to leave your own.
           By leveraging innovative technology, you can participate in the
