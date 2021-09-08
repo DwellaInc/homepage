@@ -10,7 +10,7 @@ export default function CardWithBorder({ image, title, text }) {
         <h4 className="CWB-title">{title}</h4>
       </div>
       <button className="CWB-button">
-        <img src={downBtn} alt="Expand button" />
+        <img className="CWB-expand" src={downBtn} alt="Expand button" />
       </button>
       <p>{text}</p>
     </div>

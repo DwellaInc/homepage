@@ -48,7 +48,8 @@
     @include button;
     font-weight: 400;
     color: $Black;
-    background: white;
+    background-color: transparent;
     padding: 10px 16px;
+    text-decoration: none;
   }
 }

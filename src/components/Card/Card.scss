@@ -8,8 +8,8 @@
   margin: 1.5rem 2rem;
 
   @include mobile {
-    width: 100vw;
-    text-align: center;
+    width: 25vw;
+    margin: 1rem 0.5rem;
   }
 
   &-image {

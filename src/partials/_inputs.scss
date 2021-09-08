@@ -1,13 +1,13 @@
 @import './colors', './mediaQueries';
 
 input {
-  padding: 7.5px 16px;
+  padding: 7px 16px;
   color: $Grey;
   border: 1px solid $Grey;
   background: white;
   border-radius: 25px;
-  width: 400px;
-  margin: 16px 0;
+  width: 100%;
+  margin: 5px;
 
   &:focus {
     border-color: $Primary;
@@ -40,5 +40,27 @@ input {
   &-error {
     @include label();
     color: $Primary;
+  }
+}
+
+textarea {
+  padding: 7px 16px;
+  color: $Grey;
+  border: 1px solid $Grey;
+  background: white;
+  border-radius: 25px;
+  width: 100%;
+  margin: 1.5rem 0;
+  height: 150px;
+  resize: none;
+  overflow-y: scroll;
+
+  &:focus {
+    border-color: $Primary;
+    outline: none;
+  }
+
+  &:hover {
+    border-color: $DarkGrey;
   }
 }
