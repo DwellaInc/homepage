@@ -10,10 +10,10 @@ export default function Header() {
   const [dropdownClass, setDropdownClass] = useState('hidden');
 
   const links = [
-    { title: 'About Us', link: '' },
-    { title: 'How It Works', link: '' },
-    { title: 'For Builders', link: '' },
-    { title: 'Survey', link: '' },
+    { title: 'About Us', link: '#' },
+    { title: 'How It Works', link: '#' },
+    { title: 'For Builders', link: '#' },
+    { title: 'Survey', link: '#' },
   ];
 
   const handleOpenDropdown = () => {

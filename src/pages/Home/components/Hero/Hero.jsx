@@ -1,7 +1,6 @@
 import React from 'react';
 import './Hero.scss';
 import Button from '../../../../components/Button/Button';
-import heroImg from '../../../../assets/images/hero-bg.png';
 
 export default function Hero() {
   return (
@@ -17,7 +16,6 @@ export default function Hero() {
           <Button className="btn-primary hero-button" text="Register" />
         </div>
       </div>
-      <img className="hero-image" src={heroImg} alt="People building city" />
     </section>
   );
 }
