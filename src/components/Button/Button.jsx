@@ -1,13 +1,15 @@
 import React from 'react';
 
-export default function Button({ className, clickHandler, text, link }) {
-  if (className === 'btn btn-nav') {
-    <a href={link} target="_blank" rel="noreferrer" className={className}>
-      {text}
-    </a>;
+export default function Button({ className, onClick, text, link, type }) {
+  if (link) {
+    return (
+      <a href={link} className={className} target={'_blank'} rel="noreferrer">
+        {text}
+      </a>
+    );
   }
   return (
-    <button className={className} onClick={clickHandler}>
+    <button type={type} className={className} onClick={onClick}>
       {text}
     </button>
   );

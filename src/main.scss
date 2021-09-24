@@ -11,9 +11,13 @@ body,
   font-size: 14px;
   line-height: 24px;
   color: $Black;
+  scroll-behavior: smooth;
 }
 
 .logo {
-  height: 12rem;
-  cursor: pointer;
+  height: 4rem;
+
+  @include mobile {
+    height: 3rem;
+  }
 }

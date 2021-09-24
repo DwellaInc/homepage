@@ -5,7 +5,7 @@ import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
 import WalkThrough from './components/WalkThrough/WalkThrough';
 import HowWeDoIt from './components/HowWeDoIt/HowWeDoIt';
 import AboutUs from './components/AboutUs/AboutUs';
-import CTA from './components/CTA/CTA';
+import Contact from './components/Contact/Contact';
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <WalkThrough />
       <HowWeDoIt />
       <AboutUs />
-      <CTA />
+      <Contact />
     </>
   );
 }

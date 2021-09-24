@@ -41,6 +41,12 @@
   &-info {
     padding-top: 1rem;
 
+    &-title {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
     @include mobile {
       padding-top: 4rem;
     }
@@ -52,6 +58,7 @@
   }
 
   &-logo {
-    margin-right: 0;
+    margin: 1.5rem;
+    margin-left: 0;
   }
 }

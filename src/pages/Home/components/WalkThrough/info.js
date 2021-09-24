@@ -14,7 +14,7 @@ export const walkThroughInfo = [
     background: 'grey',
     number: 2,
     title: 'Invest',
-    text: 'Buy and trade tokens to reap the rewards of investing in real estate',
+    text: 'Buy and trade property tokens to build your portfolio',
     image: Invest,
   },
   {

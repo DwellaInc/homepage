@@ -16,8 +16,7 @@
   flex-direction: column;
 
   @include mobile {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 5rem 1rem 4rem;
     background: #dee8e9;
   }
 
@@ -49,14 +48,11 @@
   }
 
   &-image {
-    width: 60vw;
-
-    @include tablet {
-      width: 90vw;
-    }
+    display: none;
 
     @include mobile {
-      height: 170px;
+      display: initial;
+      width: 100%;
       object-fit: cover;
       object-position: center;
     }
