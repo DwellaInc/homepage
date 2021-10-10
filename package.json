@@ -2,7 +2,12 @@
   "name": "dwella-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ayunita.github.io/test",
+  "homepage": "http://dwellainc.github.io/homepage", 
+  "comments": {
+    "description": "This comment section can be removed",
+    "homepage": "Change homepage address with format: http://{username}.github.io/{repo-name}",
+    "deploy": "Deploy to github pages"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
